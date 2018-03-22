@@ -70,4 +70,17 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+  <repository>
+    <id>release</id>
+	<name>release</name>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://10.16.86.218:8081/repository/maven-public/</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <name>snapshots</name>
+    <url>http://10.16.86.218:8081/repository/maven-snapshots/</url>
+  </snapshotRepository>
+  </distributionManagement>
 </project>
