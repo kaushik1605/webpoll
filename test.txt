@@ -1,4 +1,2 @@
 Test Commit
-testing testBranch1
-testing TestBranch2
-testing TestBranch3
+testing testBranch
